@@ -69,3 +69,37 @@
   color: white;
   z-index:750;
 }
+
+
+
+/* Tokio */
+
+/* Russia */
+#container2{
+  background-image: url(../img/Tokyo.jfif);
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  margin-top: 10px;
+
+}
+
+#layover2{
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top:0;
+  left:0;
+  bottom:0;
+  right:0;
+  z-index:700;
+}
+
+#titolo2{
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 100px;
+  color: white;
+  z-index:750;
+}
