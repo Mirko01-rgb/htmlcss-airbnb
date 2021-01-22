@@ -16,6 +16,7 @@
   background-size: cover;
   height: 100vh;
   position: relative;
+  margin: 10px;
 
 }
 
@@ -46,7 +47,6 @@
 }
 
 
-
 /* Russia */
 #container1{
   background-image: url(../img/Russia.jpg);
@@ -54,7 +54,7 @@
   border-radius: 20px;
   height: 100vh;
   position: relative;
-  margin-top: 10px;
+  margin: 10px;
 
 }
 
@@ -77,6 +77,7 @@
   font-size: 100px;
   color: white;
   z-index:750;
+
 }
 
 #titolo1 h1:hover{
@@ -85,16 +86,15 @@
 
 
 
-/* Tokio */
 
-/* Russia */
+/* Tokyo */
 #container2{
   background-image: url(../img/Tokyo.jfif);
   border-radius: 20px;
   background-size: cover;
   height: 100vh;
   position: relative;
-  margin-top: 10px;
+  margin: 10px;
 
 }
 
@@ -109,6 +109,7 @@
   z-index:700;
 }
 
+
 #titolo2{
   position:absolute;
   top: 50%;
@@ -119,6 +120,6 @@
   z-index:750;
 }
 
-#titolo h1:hover{
+#titolo2 h1:hover{
   color: red;
 }
