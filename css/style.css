@@ -12,6 +12,7 @@
 
 #container{
   background-image: url(../img/Roma.jpg);
+  border-radius: 20px;
   background-size: cover;
   height: 100vh;
   position: relative;
@@ -20,6 +21,7 @@
 
 #layover{
   background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
   position: absolute;
   top:0;
   left:0;
@@ -36,6 +38,11 @@
   font-size: 100px;
   color: white;
   z-index:750;
+
+}
+
+#titolo h1:hover{
+  color: red;
 }
 
 
@@ -44,6 +51,7 @@
 #container1{
   background-image: url(../img/Russia.jpg);
   background-size: cover;
+  border-radius: 20px;
   height: 100vh;
   position: relative;
   margin-top: 10px;
@@ -52,6 +60,7 @@
 
 #layover1{
   background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
   position: absolute;
   top:0;
   left:0;
@@ -70,6 +79,10 @@
   z-index:750;
 }
 
+#titolo1 h1:hover{
+  color: red;
+}
+
 
 
 /* Tokio */
@@ -77,6 +90,7 @@
 /* Russia */
 #container2{
   background-image: url(../img/Tokyo.jfif);
+  border-radius: 20px;
   background-size: cover;
   height: 100vh;
   position: relative;
@@ -86,6 +100,7 @@
 
 #layover2{
   background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
   position: absolute;
   top:0;
   left:0;
@@ -102,4 +117,8 @@
   font-size: 100px;
   color: white;
   z-index:750;
+}
+
+#titolo h1:hover{
+  color: red;
 }
