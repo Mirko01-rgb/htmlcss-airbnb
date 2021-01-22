@@ -37,3 +37,35 @@
   color: white;
   z-index:750;
 }
+
+
+
+/* Russia */
+#container1{
+  background-image: url(../img/Russia.jpg);
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  margin-top: 10px;
+
+}
+
+#layover1{
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top:0;
+  left:0;
+  bottom:0;
+  right:0;
+  z-index:700;
+}
+
+#titolo1{
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 100px;
+  color: white;
+  z-index:750;
+}
